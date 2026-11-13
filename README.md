@@ -1,17 +1,22 @@
-# Trinity hyperscanning fNIRS: friends and strangers watching films
+# Shared Frontal Hemodynamic Responses and Dyadic Coherence During Naturalistic Co-Viewing
 
-Analysis code for the paper on shared responses and partner coherence in 46 dyads (23 friend and 23 stranger pairs, 92 participants) who watched an audio story, a comedy and a horror film together while frontal fNIRS was recorded from both partners.
+Analysis code accompanying an fNIRS hyperscanning study of **92 participants (46 dyads: 23 friend and 23 stranger pairs)** viewing audio, comic, and horror stimuli together.
 
-The code and its documentation are in [`analysis/`](analysis/):
+## Overview
 
-- [`analysis/README.md`](analysis/README.md): methods, scripts, run order and outputs;
-- [`analysis/RESULTS.md`](analysis/RESULTS.md): the results;
-- `analysis/results/`: every output table.
+The study examines shared hemodynamic responses using inter-subject correlation (ISC), wavelet transform coherence (WTC) in actual versus stimulus-matched pseudo-dyads, and the role of social familiarity. Additional analyses assess phase relationships, head motion, stimulus boundaries, HbR, and bootstrap confidence intervals.
 
-## Setup
+## Key findings
 
-```bash
-uv sync    # Python 3.12 environment with the pinned versions in uv.lock
-```
+Non-partner ISC was positive in all three conditions. Actual partners showed a small WTC advantage during comic (difference = 0.0062; FDR-adjusted *p* = 0.036). No familiarity comparison survived correction. These results do not establish movement-independent neural coupling.
 
-The participant recordings are not included. Put them in `Data/friend/` and `Data/stranger/` at the repository root, or change `DATA` in `analysis/config.py`.
+## Code and documentation
+
+- **[analysis/README.md](analysis/README.md)** — setup, scripts, required data, and execution order.
+- **[analysis/RESULTS.md](analysis/RESULTS.md)** — detailed statistical results.
+
+The **de-identified fNIRS data** supporting the findings of this study are publicly available on Zenodo at [https://zenodo.org/records/24202317].
+
+## Citation
+
+Please cite the associated publication once available. Until then, reference this repository and the commit used.
