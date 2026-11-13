@@ -1,0 +1,6 @@
+flat sensors: ['friend_23_A', 'stranger_15_B']
+138 jobs (14 s)
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 10 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  52 tasks      | elapsed: 17.3min
+[Parallel(n_jobs=-1)]: Done 138 out of 138 | elapsed: 46.2min finished
+done in 46.4 min

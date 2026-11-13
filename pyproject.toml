@@ -1,0 +1,19 @@
+[project]
+name = "trinity-hyperscanning-fnirs"
+version = "1.0.0"
+description = "Analysis code for the Trinity fNIRS hyperscanning study of friends and strangers watching films"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "h5py==3.16.0",
+    "joblib==1.5.3",
+    "mne==1.12.1",
+    "numpy==2.4.4",
+    "pandas==3.0.2",
+    "pywavelets==1.8.0",
+    "scipy==1.17.1",
+    "statsmodels==0.14.6",
+]
+
+[tool.uv]
+package = false

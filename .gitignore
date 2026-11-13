@@ -1,0 +1,15 @@
+# environment
+.venv/
+__pycache__/
+*.pyc
+
+# data (participant recordings are not shared)
+Data/
+*.snirf
+
+# system and editor files
+.DS_Store
+.Rhistory
+.ipynb_checkpoints/
+.vscode/
+.idea/

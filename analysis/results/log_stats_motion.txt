@@ -1,0 +1,114 @@
+
+m0_check
+  film   r  mean_difference  max_abs_difference  n_pairs
+ Audio 1.0             -0.0              0.0001     1936
+Comedy 1.0             -0.0              0.0002     1936
+Horror 1.0             -0.0              0.0002     1936
+
+m1_explained
+  film  n    own  others  difference       t   p  p_fdr
+ Audio 88 0.1363  0.0876      0.0487 11.3735 0.0    0.0
+Comedy 88 0.1523  0.0893      0.0631 12.0372 0.0    0.0
+Horror 88 0.1470  0.0958      0.0511 11.6682 0.0    0.0
+
+m2_amount
+  film  friends  strangers  rank_biserial      p  rho_with_wtc  p_rho  p_fdr  p_rho_fdr
+ Audio  -4.9212    -4.9204         0.0248 0.8973       -0.1133 0.4639 1.0000     0.6959
+Comedy  -5.0852    -5.0726         0.0000 1.0000       -0.1291 0.4036 1.0000     0.6959
+Horror  -5.1023    -5.1896         0.2149 0.2267       -0.0303 0.8452 0.6802     0.8452
+
+m3_motion_coupling
+  film       signal           comparison   real  pseudo  difference       z      p  p_fdr
+ Audio       motion       real vs pseudo 0.7068  0.6691      0.0377  6.7206 0.0002 0.0002
+ Audio       motion friends vs strangers 0.7052  0.7085     -0.0034 -0.0165 0.9345 0.9345
+ Audio       tilt_x       real vs pseudo 0.6861  0.6567      0.0294  3.1808 0.0012 0.0022
+ Audio       tilt_x friends vs strangers 0.6857  0.6866     -0.0008 -0.0331 0.8603 0.9159
+ Audio       tilt_y       real vs pseudo 0.6752  0.6554      0.0197  2.2843 0.0264 0.0360
+ Audio       tilt_y friends vs strangers 0.6800  0.6703      0.0097  0.0331 0.8603 0.9159
+ Audio       tilt_z       real vs pseudo 0.6948  0.6559      0.0389  4.4312 0.0002 0.0004
+ Audio       tilt_z friends vs strangers 0.6924  0.6972     -0.0048 -0.0702 0.6985 0.9159
+ Audio accel_energy       real vs pseudo 0.7392  0.6865      0.0527  6.6373 0.0002 0.0004
+ Audio accel_energy friends vs strangers 0.7345  0.7439     -0.0094 -0.0413 0.8235 0.9159
+ Audio  gyro_energy       real vs pseudo 0.7389  0.6910      0.0479  6.1585 0.0002 0.0004
+ Audio  gyro_energy friends vs strangers 0.7332  0.7447     -0.0116 -0.0207 0.9159 0.9159
+Comedy       motion       real vs pseudo 0.7018  0.6739      0.0280  4.5027 0.0002 0.0002
+Comedy       motion friends vs strangers 0.7046  0.6990      0.0056 -0.1818 0.3072 0.9217
+Comedy       tilt_x       real vs pseudo 0.6771  0.6551      0.0220  2.2816 0.0234 0.0351
+Comedy       tilt_x friends vs strangers 0.6886  0.6656      0.0230  0.0826 0.6472 0.9159
+Comedy       tilt_y       real vs pseudo 0.6893  0.6736      0.0157  1.6645 0.1002 0.1073
+Comedy       tilt_y friends vs strangers 0.6887  0.6899     -0.0011 -0.0331 0.8603 0.9159
+Comedy       tilt_z       real vs pseudo 0.6805  0.6717      0.0088  0.9106 0.3550 0.3550
+Comedy       tilt_z friends vs strangers 0.6707  0.6903     -0.0196 -0.3388 0.0557 0.5441
+Comedy accel_energy       real vs pseudo 0.7280  0.6834      0.0446  5.1892 0.0002 0.0004
+Comedy accel_energy friends vs strangers 0.7339  0.7220      0.0119  0.0289 0.8787 0.9159
+Comedy  gyro_energy       real vs pseudo 0.7343  0.6855      0.0488  5.8516 0.0002 0.0004
+Comedy  gyro_energy friends vs strangers 0.7412  0.7273      0.0140  0.0289 0.8787 0.9159
+Horror       motion       real vs pseudo 0.7350  0.6903      0.0446  6.9147 0.0002 0.0002
+Horror       motion friends vs strangers 0.7397  0.7303      0.0094 -0.0702 0.6985 0.9345
+Horror       tilt_x       real vs pseudo 0.6917  0.6732      0.0185  1.8367 0.0690 0.0796
+Horror       tilt_x friends vs strangers 0.6684  0.7149     -0.0465 -0.3182 0.0725 0.5441
+Horror       tilt_y       real vs pseudo 0.7066  0.6814      0.0252  2.6802 0.0098 0.0163
+Horror       tilt_y friends vs strangers 0.7216  0.6916      0.0300  0.0950 0.5974 0.9159
+Horror       tilt_z       real vs pseudo 0.7010  0.6814      0.0196  2.1414 0.0364 0.0455
+Horror       tilt_z friends vs strangers 0.6970  0.7049     -0.0079 -0.0372 0.8419 0.9159
+Horror accel_energy       real vs pseudo 0.7888  0.7076      0.0812  9.3377 0.0002 0.0004
+Horror accel_energy friends vs strangers 0.8071  0.7704      0.0367  0.0620 0.7336 0.9159
+Horror  gyro_energy       real vs pseudo 0.7868  0.7082      0.0786  9.1841 0.0002 0.0004
+Horror  gyro_energy friends vs strangers 0.8042  0.7694      0.0348  0.0537 0.7692 0.9159
+
+m4_motion_vs_brain
+  film  slope      r      p  p_fdr
+ Audio 0.0173 0.0392 0.1374 0.1374
+Comedy 0.0339 0.0805 0.0015 0.0045
+Horror 0.0430 0.1147 0.0030 0.0045
+
+m5_control
+                                   version                    test      film      a      b  difference  effect      p  p_fdr
+                             HbO unchanged       Q2 real vs pseudo     Audio 0.7006 0.6994      0.0012  0.4696 0.3208 0.3208
+                             HbO unchanged       Q2 real vs pseudo    Comedy 0.7085 0.7019      0.0066  2.4097 0.0091 0.0273
+                             HbO unchanged       Q2 real vs pseudo    Horror 0.7047 0.7005      0.0042  1.5086 0.0650 0.0975
+                             HbO unchanged Q3 friends vs strangers     Audio 0.7033 0.6978      0.0055  0.0826 0.6472 0.6472
+                             HbO unchanged Q3 friends vs strangers    Comedy 0.7127 0.7044      0.0083  0.3595 0.0423 0.1270
+                             HbO unchanged Q3 friends vs strangers    Horror 0.7026 0.7068     -0.0043 -0.1033 0.5652 0.6472
+                             HbO unchanged       Q2 real vs pseudo all films 0.7046 0.7006      0.0040  2.5020 0.0067    NaN
+                             HbO unchanged Q3 friends vs strangers all films 0.7062 0.7030      0.0032  0.1901 0.2855    NaN
+           own motion regressed out of HbO       Q2 real vs pseudo     Audio 0.6956 0.6982     -0.0026 -1.0907 0.8614 0.8614
+           own motion regressed out of HbO       Q2 real vs pseudo    Comedy 0.7070 0.7018      0.0053  1.9968 0.0251 0.0753
+           own motion regressed out of HbO       Q2 real vs pseudo    Horror 0.7007 0.6995      0.0012  0.4550 0.3233 0.4849
+           own motion regressed out of HbO Q3 friends vs strangers     Audio 0.6989 0.6923      0.0066  0.2273 0.2008 0.2008
+           own motion regressed out of HbO Q3 friends vs strangers    Comedy 0.7123 0.7018      0.0105  0.3802 0.0317 0.0476
+           own motion regressed out of HbO Q3 friends vs strangers    Horror 0.6949 0.7064     -0.0114 -0.4008 0.0235 0.0476
+           own motion regressed out of HbO       Q2 real vs pseudo all films 0.7011 0.6998      0.0013  0.8383 0.2005    NaN
+           own motion regressed out of HbO Q3 friends vs strangers all films 0.7021 0.7001      0.0019  0.1074 0.5495    NaN
+motion coupling regressed out across pairs       Q2 real vs pseudo     Audio 0.6999 0.6994      0.0006  0.2200 0.4119 0.4119
+motion coupling regressed out across pairs       Q2 real vs pseudo    Comedy 0.7076 0.7019      0.0057  2.0715 0.0213 0.0639
+motion coupling regressed out across pairs       Q2 real vs pseudo    Horror 0.7028 0.7006      0.0022  0.8120 0.2094 0.3141
+motion coupling regressed out across pairs Q3 friends vs strangers     Audio 0.7027 0.6972      0.0056  0.0661 0.7160 0.7160
+motion coupling regressed out across pairs Q3 friends vs strangers    Comedy 0.7117 0.7036      0.0081  0.3554 0.0448 0.1343
+motion coupling regressed out across pairs Q3 friends vs strangers    Horror 0.7005 0.7052     -0.0047 -0.0661 0.7160 0.7160
+motion coupling regressed out across pairs       Q2 real vs pseudo all films 0.7035 0.7006      0.0028  1.7743 0.0368    NaN
+motion coupling regressed out across pairs Q3 friends vs strangers all films 0.7050 0.7020      0.0030  0.2025 0.2549    NaN
+
+m6_isc
+  film         data  n    isc  isc_median  isc_r  n_positive      w  rank_biserial      p  p_signflip  p_fdr
+ Audio          hbo 88 0.0123      0.0135 0.0123          73  370.0         0.8110 0.0000      0.0001 0.0000
+ Audio      cleaned 88 0.0125      0.0120 0.0125          71  365.0         0.8136 0.0000      0.0001 0.0000
+ Audio       tilt_x 88 0.0000     -0.0008 0.0000          38 1893.0        -0.0332 0.7868      0.9973 0.7868
+ Audio       tilt_y 88 0.0162      0.0171 0.0162          61  932.0         0.5240 0.0000      0.0001 0.0000
+ Audio       tilt_z 88 0.0210      0.0169 0.0210          66  742.0         0.6210 0.0000      0.0001 0.0000
+ Audio accel_energy 88 0.0464      0.0499 0.0464          82   74.0         0.9622 0.0000      0.0001 0.0000
+ Audio  gyro_energy 88 0.0516      0.0523 0.0516          86   63.0         0.9678 0.0000      0.0001 0.0000
+Comedy          hbo 88 0.0308      0.0292 0.0308          82   62.0         0.9683 0.0000      0.0001 0.0000
+Comedy      cleaned 88 0.0291      0.0266 0.0291          84   55.0         0.9719 0.0000      0.0001 0.0000
+Comedy       tilt_x 88 0.0052      0.0083 0.0052          55 1377.0         0.2967 0.0156      0.0290 0.0469
+Comedy       tilt_y 88 0.0532      0.0501 0.0531          81  139.0         0.9290 0.0000      0.0001 0.0000
+Comedy       tilt_z 88 0.0401      0.0373 0.0401          74  327.0         0.8330 0.0000      0.0001 0.0000
+Comedy accel_energy 88 0.0648      0.0672 0.0647          83   30.0         0.9847 0.0000      0.0001 0.0000
+Comedy  gyro_energy 88 0.0731      0.0727 0.0730          85   32.0         0.9837 0.0000      0.0001 0.0000
+Horror          hbo 88 0.0430      0.0449 0.0430          80   76.0         0.9612 0.0000      0.0001 0.0000
+Horror      cleaned 88 0.0346      0.0368 0.0346          80   97.0         0.9505 0.0000      0.0001 0.0000
+Horror       tilt_x 88 0.0046      0.0064 0.0046          55 1468.0         0.2503 0.0415      0.0714 0.0622
+Horror       tilt_y 88 0.0594      0.0551 0.0593          74  288.0         0.8529 0.0000      0.0001 0.0000
+Horror       tilt_z 88 0.0460      0.0432 0.0460          73  387.0         0.8023 0.0000      0.0001 0.0000
+Horror accel_energy 88 0.1251      0.1211 0.1245          87    3.0         0.9985 0.0000      0.0001 0.0000
+Horror  gyro_energy 88 0.1342      0.1339 0.1334          86    4.0         0.9980 0.0000      0.0001 0.0000

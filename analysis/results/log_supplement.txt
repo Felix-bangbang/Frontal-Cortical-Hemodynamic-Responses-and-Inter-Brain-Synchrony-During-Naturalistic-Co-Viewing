@@ -1,0 +1,12 @@
+start 14:39:35
+138 jobs (11 s)
+done in 0.5 min
+real 33.16
+user 260.61
+sys 8.12
+channels done 14:40:08
+done
+real 17.84
+user 106.79
+sys 5.83
+motion_isc_hbr done 14:40:26

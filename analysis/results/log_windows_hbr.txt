@@ -1,0 +1,5 @@
+hbr: 138 jobs (25 s)
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 10 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  52 tasks      | elapsed: 14.0min
+[Parallel(n_jobs=-1)]: Done 138 out of 138 | elapsed: 32.0min finished
+done in 32.4 min

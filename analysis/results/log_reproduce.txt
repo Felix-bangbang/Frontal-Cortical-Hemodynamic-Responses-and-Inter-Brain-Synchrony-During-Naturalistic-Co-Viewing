@@ -1,0 +1,8 @@
+start 00:01:15
+preprocessed (31 s)
+done in 0.5 min
+isc_hbr done 00:01:51
+windows_hbo done 01:03:21
+windows_hbr done 01:35:48
+fir done 01:35:58
+ALLDONE

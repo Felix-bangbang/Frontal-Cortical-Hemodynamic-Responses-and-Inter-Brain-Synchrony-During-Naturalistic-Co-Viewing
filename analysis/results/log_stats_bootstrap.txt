@@ -1,0 +1,145 @@
+                                  question chromophore                                 version      film  estimate        lo       hi  lo_bonferroni  hi_bonferroni
+                                    Q1 ISC         HbO                        all participants     Audio    0.0127    0.0072   0.0191            NaN            NaN
+                                    Q1 ISC         HbO                        all participants    Comedy    0.0311    0.0223   0.0410            NaN            NaN
+                                    Q1 ISC         HbO                        all participants    Horror    0.0442    0.0326   0.0575            NaN            NaN
+                                    Q1 ISC         HbO                        all participants all films    0.0293    0.0234   0.0359            NaN            NaN
+                                    Q1 ISC         HbR                        all participants     Audio    0.0054    0.0020   0.0091            NaN            NaN
+                                    Q1 ISC         HbR                        all participants    Comedy    0.0105    0.0067   0.0145            NaN            NaN
+                                    Q1 ISC         HbR                        all participants    Horror    0.0214    0.0145   0.0291            NaN            NaN
+                                    Q1 ISC         HbR                        all participants all films    0.0124    0.0093   0.0158            NaN            NaN
+                          Q2 real - pseudo         HbO                     46 dyads, unchanged     Audio    0.0017   -0.0040   0.0079            NaN            NaN
+                          Q2 real - pseudo         HbO                     46 dyads, unchanged    Comedy    0.0062    0.0019   0.0103            NaN            NaN
+                          Q2 real - pseudo         HbO                     46 dyads, unchanged    Horror    0.0044   -0.0015   0.0102            NaN            NaN
+                          Q2 real - pseudo         HbO                     46 dyads, unchanged all films    0.0041    0.0010   0.0071            NaN            NaN
+                          Q2 real - pseudo         HbR                     46 dyads, unchanged     Audio    0.0009   -0.0028   0.0046            NaN            NaN
+                          Q2 real - pseudo         HbR                     46 dyads, unchanged    Comedy    0.0088    0.0054   0.0123            NaN            NaN
+                          Q2 real - pseudo         HbR                     46 dyads, unchanged    Horror    0.0026   -0.0015   0.0067            NaN            NaN
+                          Q2 real - pseudo         HbR                     46 dyads, unchanged all films    0.0041    0.0018   0.0062            NaN            NaN
+                          Q2 real - pseudo         HbO                     44 dyads, unchanged     Audio    0.0012   -0.0049   0.0076            NaN            NaN
+                          Q2 real - pseudo         HbO                     44 dyads, unchanged    Comedy    0.0066    0.0022   0.0109            NaN            NaN
+                          Q2 real - pseudo         HbO                     44 dyads, unchanged    Horror    0.0042   -0.0019   0.0103            NaN            NaN
+                          Q2 real - pseudo         HbO                     44 dyads, unchanged all films    0.0040    0.0008   0.0072            NaN            NaN
+                          Q2 real - pseudo         HbO      44 dyads, own motion regressed out     Audio   -0.0026   -0.0077   0.0024            NaN            NaN
+                          Q2 real - pseudo         HbO      44 dyads, own motion regressed out    Comedy    0.0053    0.0005   0.0098            NaN            NaN
+                          Q2 real - pseudo         HbO      44 dyads, own motion regressed out    Horror    0.0012   -0.0043   0.0064            NaN            NaN
+                          Q2 real - pseudo         HbO      44 dyads, own motion regressed out all films    0.0013   -0.0011   0.0036            NaN            NaN
+                          Q2 real - pseudo         HbO 44 dyads, motion coupling regressed out     Audio    0.0006   -0.0054   0.0066            NaN            NaN
+                          Q2 real - pseudo         HbO 44 dyads, motion coupling regressed out    Comedy    0.0057    0.0011   0.0100            NaN            NaN
+                          Q2 real - pseudo         HbO 44 dyads, motion coupling regressed out    Horror    0.0022   -0.0034   0.0078            NaN            NaN
+                          Q2 real - pseudo         HbO 44 dyads, motion coupling regressed out all films    0.0028   -0.0002   0.0057            NaN            NaN
+                          Q2 real - pseudo         HbR                     44 dyads, unchanged     Audio    0.0009   -0.0029   0.0048            NaN            NaN
+                          Q2 real - pseudo         HbR                     44 dyads, unchanged    Comedy    0.0085    0.0050   0.0121            NaN            NaN
+                          Q2 real - pseudo         HbR                     44 dyads, unchanged    Horror    0.0023   -0.0020   0.0066            NaN            NaN
+                          Q2 real - pseudo         HbR                     44 dyads, unchanged all films    0.0039    0.0015   0.0062            NaN            NaN
+                          Q2 real - pseudo         HbR      44 dyads, own motion regressed out     Audio   -0.0011   -0.0051   0.0027            NaN            NaN
+                          Q2 real - pseudo         HbR      44 dyads, own motion regressed out    Comedy    0.0053    0.0020   0.0088            NaN            NaN
+                          Q2 real - pseudo         HbR      44 dyads, own motion regressed out    Horror    0.0035   -0.0008   0.0077            NaN            NaN
+                          Q2 real - pseudo         HbR      44 dyads, own motion regressed out all films    0.0026    0.0004   0.0047            NaN            NaN
+                          Q2 real - pseudo         HbR 44 dyads, motion coupling regressed out     Audio   -0.0001   -0.0039   0.0036            NaN            NaN
+                          Q2 real - pseudo         HbR 44 dyads, motion coupling regressed out    Comedy    0.0078    0.0043   0.0113            NaN            NaN
+                          Q2 real - pseudo         HbR 44 dyads, motion coupling regressed out    Horror    0.0005   -0.0036   0.0046            NaN            NaN
+                          Q2 real - pseudo         HbR 44 dyads, motion coupling regressed out all films    0.0027    0.0006   0.0048            NaN            NaN
+                    Q3 friends - strangers         HbO                                46 dyads     Audio    0.0056   -0.0060   0.0172        -0.0084         0.0197
+                    Q3 friends - strangers         HbO                                46 dyads    Comedy    0.0094    0.0004   0.0185        -0.0013         0.0206
+                    Q3 friends - strangers         HbO                                46 dyads    Horror   -0.0034   -0.0157   0.0087        -0.0188         0.0111
+                    Q3 friends - strangers         HbO                                46 dyads all films    0.0038   -0.0020   0.0096            NaN            NaN
+                    Q3 friends - strangers         HbR                                46 dyads     Audio    0.0035   -0.0041   0.0111        -0.0057         0.0126
+                    Q3 friends - strangers         HbR                                46 dyads    Comedy    0.0067   -0.0010   0.0144        -0.0030         0.0160
+                    Q3 friends - strangers         HbR                                46 dyads    Horror   -0.0075   -0.0167   0.0013        -0.0187         0.0030
+                    Q3 friends - strangers         HbR                                46 dyads all films    0.0009   -0.0042   0.0061            NaN            NaN
+                 Q4 mean phase angle (deg)         HbO                              real dyads     Audio  -18.5537 -103.5469  66.1207            NaN            NaN
+                                  Q4 R-bar         HbO                              real dyads     Audio    0.1763    0.0457   0.3942            NaN            NaN
+                 Q4 mean phase angle (deg)         HbO                              real dyads    Comedy    2.6248  -21.5998  30.3899            NaN            NaN
+                                  Q4 R-bar         HbO                              real dyads    Comedy    0.4040    0.2097   0.6072            NaN            NaN
+                 Q4 mean phase angle (deg)         HbO                              real dyads    Horror   -0.9600  -25.2477  22.5523            NaN            NaN
+                                  Q4 R-bar         HbO                              real dyads    Horror    0.4585    0.2911   0.6311            NaN            NaN
+                 Q4 mean phase angle (deg)         HbR                              real dyads     Audio  -32.3765 -198.6178 134.4692            NaN            NaN
+                                  Q4 R-bar         HbR                              real dyads     Audio    0.0299    0.0230   0.2817            NaN            NaN
+                 Q4 mean phase angle (deg)         HbR                              real dyads    Comedy   12.3535  -30.4208  53.9570            NaN            NaN
+                                  Q4 R-bar         HbR                              real dyads    Comedy    0.2926    0.1280   0.4908            NaN            NaN
+                 Q4 mean phase angle (deg)         HbR                              real dyads    Horror  -21.7848  -81.1378  52.8194            NaN            NaN
+                                  Q4 R-bar         HbR                              real dyads    Horror    0.1927    0.0643   0.3923            NaN            NaN
+                    Q3 friends - strangers         HbO                     44 dyads, unchanged     Audio    0.0055   -0.0065   0.0177            NaN            NaN
+                    Q3 friends - strangers         HbO                     44 dyads, unchanged    Comedy    0.0083   -0.0009   0.0175            NaN            NaN
+                    Q3 friends - strangers         HbO                     44 dyads, unchanged    Horror   -0.0043   -0.0169   0.0082            NaN            NaN
+                    Q3 friends - strangers         HbO                     44 dyads, unchanged all films    0.0032   -0.0028   0.0091            NaN            NaN
+                    Q3 friends - strangers         HbO      44 dyads, own motion regressed out     Audio    0.0066   -0.0035   0.0167            NaN            NaN
+                    Q3 friends - strangers         HbO      44 dyads, own motion regressed out    Comedy    0.0105   -0.0000   0.0207            NaN            NaN
+                    Q3 friends - strangers         HbO      44 dyads, own motion regressed out    Horror   -0.0114   -0.0230   0.0002            NaN            NaN
+                    Q3 friends - strangers         HbO      44 dyads, own motion regressed out all films    0.0019   -0.0029   0.0068            NaN            NaN
+                    Q3 friends - strangers         HbO 44 dyads, motion coupling regressed out     Audio    0.0056   -0.0065   0.0174            NaN            NaN
+                    Q3 friends - strangers         HbO 44 dyads, motion coupling regressed out    Comedy    0.0081   -0.0010   0.0171            NaN            NaN
+                    Q3 friends - strangers         HbO 44 dyads, motion coupling regressed out    Horror   -0.0047   -0.0171   0.0066            NaN            NaN
+                    Q3 friends - strangers         HbO 44 dyads, motion coupling regressed out all films    0.0030   -0.0026   0.0084            NaN            NaN
+                    Q3 friends - strangers         HbR                     44 dyads, unchanged     Audio    0.0031   -0.0047   0.0109            NaN            NaN
+                    Q3 friends - strangers         HbR                     44 dyads, unchanged    Comedy    0.0061   -0.0020   0.0141            NaN            NaN
+                    Q3 friends - strangers         HbR                     44 dyads, unchanged    Horror   -0.0074   -0.0169   0.0017            NaN            NaN
+                    Q3 friends - strangers         HbR                     44 dyads, unchanged all films    0.0006   -0.0048   0.0059            NaN            NaN
+                    Q3 friends - strangers         HbR      44 dyads, own motion regressed out     Audio    0.0048   -0.0028   0.0127            NaN            NaN
+                    Q3 friends - strangers         HbR      44 dyads, own motion regressed out    Comedy    0.0041   -0.0031   0.0110            NaN            NaN
+                    Q3 friends - strangers         HbR      44 dyads, own motion regressed out    Horror   -0.0042   -0.0132   0.0046            NaN            NaN
+                    Q3 friends - strangers         HbR      44 dyads, own motion regressed out all films    0.0016   -0.0030   0.0061            NaN            NaN
+                    Q3 friends - strangers         HbR 44 dyads, motion coupling regressed out     Audio    0.0032   -0.0046   0.0111            NaN            NaN
+                    Q3 friends - strangers         HbR 44 dyads, motion coupling regressed out    Comedy    0.0060   -0.0020   0.0134            NaN            NaN
+                    Q3 friends - strangers         HbR 44 dyads, motion coupling regressed out    Horror   -0.0078   -0.0169   0.0009            NaN            NaN
+                    Q3 friends - strangers         HbR 44 dyads, motion coupling regressed out all films    0.0005   -0.0047   0.0054            NaN            NaN
+                    Q3 friends - strangers         HbO                46 dyads, 5 Hz, trim 0 s     Audio    0.0056   -0.0060   0.0171            NaN            NaN
+                    Q3 friends - strangers         HbO                46 dyads, 5 Hz, trim 0 s    Comedy    0.0094    0.0006   0.0184            NaN            NaN
+                    Q3 friends - strangers         HbO                46 dyads, 5 Hz, trim 0 s    Horror   -0.0034   -0.0156   0.0088            NaN            NaN
+                    Q3 friends - strangers         HbO               46 dyads, 5 Hz, trim 30 s     Audio    0.0042   -0.0073   0.0157            NaN            NaN
+                    Q3 friends - strangers         HbO               46 dyads, 5 Hz, trim 30 s    Comedy    0.0080   -0.0020   0.0178            NaN            NaN
+                    Q3 friends - strangers         HbO               46 dyads, 5 Hz, trim 30 s    Horror   -0.0035   -0.0165   0.0093            NaN            NaN
+                    Q3 friends - strangers         HbO               46 dyads, 5 Hz, trim 60 s     Audio    0.0048   -0.0068   0.0166            NaN            NaN
+                    Q3 friends - strangers         HbO               46 dyads, 5 Hz, trim 60 s    Comedy    0.0069   -0.0039   0.0181            NaN            NaN
+                    Q3 friends - strangers         HbO               46 dyads, 5 Hz, trim 60 s    Horror   -0.0022   -0.0155   0.0109            NaN            NaN
+                    Q3 friends - strangers         HbO              46 dyads, 5 Hz, trim 120 s     Audio    0.0029   -0.0100   0.0158            NaN            NaN
+                    Q3 friends - strangers         HbO              46 dyads, 5 Hz, trim 120 s    Comedy    0.0080   -0.0065   0.0224            NaN            NaN
+                    Q3 friends - strangers         HbO              46 dyads, 5 Hz, trim 120 s    Horror    0.0004   -0.0134   0.0139            NaN            NaN
+                 Q4 real - pseudo in_phase         HbO                                46 dyads     Audio    0.0037   -0.0115   0.0193            NaN            NaN
+               Q4 real - pseudo anti_phase         HbO                                46 dyads     Audio   -0.0053   -0.0198   0.0090            NaN            NaN
+                   Q4 real - pseudo lagged         HbO                                46 dyads     Audio    0.0016   -0.0071   0.0101            NaN            NaN
+        Q4 real - pseudo phase_consistency         HbO                                46 dyads     Audio    0.0010   -0.0214   0.0239            NaN            NaN
+                    Q4 real - pseudo lag_s         HbO                                46 dyads     Audio   -0.1939   -0.4866   0.0931            NaN            NaN
+                 Q4 real - pseudo in_phase         HbO                                46 dyads    Comedy    0.0218    0.0048   0.0387            NaN            NaN
+               Q4 real - pseudo anti_phase         HbO                                46 dyads    Comedy   -0.0135   -0.0257  -0.0009            NaN            NaN
+                   Q4 real - pseudo lagged         HbO                                46 dyads    Comedy   -0.0083   -0.0187   0.0019            NaN            NaN
+        Q4 real - pseudo phase_consistency         HbO                                46 dyads    Comedy    0.0172   -0.0070   0.0412            NaN            NaN
+                    Q4 real - pseudo lag_s         HbO                                46 dyads    Comedy    0.0851   -0.1647   0.3391            NaN            NaN
+                 Q4 real - pseudo in_phase         HbO                                46 dyads    Horror    0.0128   -0.0012   0.0280            NaN            NaN
+               Q4 real - pseudo anti_phase         HbO                                46 dyads    Horror   -0.0127   -0.0257  -0.0001            NaN            NaN
+                   Q4 real - pseudo lagged         HbO                                46 dyads    Horror   -0.0000   -0.0092   0.0091            NaN            NaN
+        Q4 real - pseudo phase_consistency         HbO                                46 dyads    Horror   -0.0033   -0.0264   0.0223            NaN            NaN
+                    Q4 real - pseudo lag_s         HbO                                46 dyads    Horror    0.0334   -0.2213   0.2919            NaN            NaN
+                 Q4 real - pseudo in_phase         HbR                                46 dyads     Audio   -0.0040   -0.0127   0.0046            NaN            NaN
+               Q4 real - pseudo anti_phase         HbR                                46 dyads     Audio    0.0053   -0.0031   0.0137            NaN            NaN
+                   Q4 real - pseudo lagged         HbR                                46 dyads     Audio   -0.0013   -0.0087   0.0059            NaN            NaN
+        Q4 real - pseudo phase_consistency         HbR                                46 dyads     Audio   -0.0092   -0.0199   0.0018            NaN            NaN
+                    Q4 real - pseudo lag_s         HbR                                46 dyads     Audio    0.0038   -0.2063   0.2119            NaN            NaN
+                 Q4 real - pseudo in_phase         HbR                                46 dyads    Comedy    0.0078   -0.0040   0.0195            NaN            NaN
+               Q4 real - pseudo anti_phase         HbR                                46 dyads    Comedy   -0.0107   -0.0219   0.0006            NaN            NaN
+                   Q4 real - pseudo lagged         HbR                                46 dyads    Comedy    0.0029   -0.0051   0.0107            NaN            NaN
+        Q4 real - pseudo phase_consistency         HbR                                46 dyads    Comedy    0.0180    0.0028   0.0333            NaN            NaN
+                    Q4 real - pseudo lag_s         HbR                                46 dyads    Comedy    0.1633   -0.0438   0.3803            NaN            NaN
+                 Q4 real - pseudo in_phase         HbR                                46 dyads    Horror   -0.0053   -0.0151   0.0049            NaN            NaN
+               Q4 real - pseudo anti_phase         HbR                                46 dyads    Horror    0.0017   -0.0075   0.0110            NaN            NaN
+                   Q4 real - pseudo lagged         HbR                                46 dyads    Horror    0.0035   -0.0045   0.0113            NaN            NaN
+        Q4 real - pseudo phase_consistency         HbR                                46 dyads    Horror   -0.0084   -0.0226   0.0069            NaN            NaN
+                    Q4 real - pseudo lag_s         HbR                                46 dyads    Horror    0.0018   -0.2042   0.2070            NaN            NaN
+Motion own - other explained variance (pp)         HbO                                44 dyads     Audio    4.8728    4.0411   5.6967            NaN            NaN
+                                    Q1 ISC         HbO              44 dyads, unchanged (5 Hz)     Audio    0.0123    0.0068   0.0184            NaN            NaN
+                                    Q1 ISC         HbO      44 dyads, own motion regressed out     Audio    0.0125    0.0072   0.0184            NaN            NaN
+Motion own - other explained variance (pp)         HbO                                44 dyads    Comedy    6.3058    5.2885   7.3443            NaN            NaN
+                                    Q1 ISC         HbO              44 dyads, unchanged (5 Hz)    Comedy    0.0308    0.0219   0.0408            NaN            NaN
+                                    Q1 ISC         HbO      44 dyads, own motion regressed out    Comedy    0.0291    0.0210   0.0380            NaN            NaN
+Motion own - other explained variance (pp)         HbO                                44 dyads    Horror    5.1141    4.2355   6.0188            NaN            NaN
+                                    Q1 ISC         HbO              44 dyads, unchanged (5 Hz)    Horror    0.0430    0.0314   0.0562            NaN            NaN
+                                    Q1 ISC         HbO      44 dyads, own motion regressed out    Horror    0.0346    0.0251   0.0452            NaN            NaN
+Motion own - other explained variance (pp)         HbR                                44 dyads     Audio    3.9515    3.3458   4.5724            NaN            NaN
+                                    Q1 ISC         HbR              44 dyads, unchanged (5 Hz)     Audio    0.0052    0.0017   0.0089            NaN            NaN
+                                    Q1 ISC         HbR      44 dyads, own motion regressed out     Audio    0.0042    0.0012   0.0074            NaN            NaN
+Motion own - other explained variance (pp)         HbR                                44 dyads    Comedy    4.5990    3.8962   5.3022            NaN            NaN
+                                    Q1 ISC         HbR              44 dyads, unchanged (5 Hz)    Comedy    0.0101    0.0062   0.0142            NaN            NaN
+                                    Q1 ISC         HbR      44 dyads, own motion regressed out    Comedy    0.0089    0.0051   0.0132            NaN            NaN
+Motion own - other explained variance (pp)         HbR                                44 dyads    Horror    3.6668    2.8336   4.5356            NaN            NaN
+                                    Q1 ISC         HbR              44 dyads, unchanged (5 Hz)    Horror    0.0220    0.0147   0.0302            NaN            NaN
+                                    Q1 ISC         HbR      44 dyads, own motion regressed out    Horror    0.0179    0.0118   0.0247            NaN            NaN

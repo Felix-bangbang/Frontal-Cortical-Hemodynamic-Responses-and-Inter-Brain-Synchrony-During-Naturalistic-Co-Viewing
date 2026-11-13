@@ -1,0 +1,9 @@
+flat sensors: ['friend_23_A', 'stranger_15_B'] | dyads left out: ['friend_23', 'stranger_15']
+Audio: cleaned and ISC done (81 s)
+Comedy: cleaned and ISC done (156 s)
+Horror: cleaned and ISC done (222 s)
+132 WTC jobs
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 10 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  52 tasks      | elapsed: 19.3min
+[Parallel(n_jobs=-1)]: Done 132 out of 132 | elapsed: 45.3min finished
+done in 49.0 min

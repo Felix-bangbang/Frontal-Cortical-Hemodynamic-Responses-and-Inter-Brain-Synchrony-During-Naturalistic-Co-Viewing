@@ -1,0 +1,6 @@
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 10 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  52 tasks      | elapsed: 76.0min
+[Parallel(n_jobs=-1)]: Done 138 out of 138 | elapsed: 761.9min finished
+preprocessed (22 s)
+138 jobs (one per A participant and film)
+done in 762.2 min

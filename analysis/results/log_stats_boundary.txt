@@ -1,0 +1,76 @@
+
+boundary_isc
+ trim_s   film  n     isc  isc_median   isc_r  n_positive     w  rank_biserial   p  p_signflip  p_fdr  p_signflip_fdr
+      0  Audio 92 0.01271     0.01426 0.01271          78 392.0        0.81674 0.0      0.0001    0.0          0.0001
+      0 Comedy 92 0.03109     0.02938 0.03108          87  76.0        0.96447 0.0      0.0001    0.0          0.0001
+      0 Horror 92 0.04418     0.04646 0.04415          84  81.0        0.96213 0.0      0.0001    0.0          0.0001
+     30  Audio 92 0.01289     0.01437 0.01289          76 435.0        0.79663 0.0      0.0001    0.0          0.0001
+     30 Comedy 92 0.03241     0.03136 0.03240          88  74.0        0.96540 0.0      0.0001    0.0          0.0001
+     30 Horror 92 0.04695     0.04857 0.04692          85  92.0        0.95699 0.0      0.0001    0.0          0.0001
+     60  Audio 92 0.01220     0.01232 0.01220          74 536.0        0.74942 0.0      0.0001    0.0          0.0001
+     60 Comedy 92 0.03516     0.03182 0.03515          88  78.0        0.96353 0.0      0.0001    0.0          0.0001
+     60 Horror 92 0.04701     0.04983 0.04698          85 106.0        0.95044 0.0      0.0001    0.0          0.0001
+    120  Audio 92 0.01229     0.01440 0.01229          73 630.0        0.70547 0.0      0.0001    0.0          0.0001
+    120 Comedy 92 0.03941     0.03677 0.03939          85 114.0        0.94670 0.0      0.0001    0.0          0.0001
+    120 Horror 92 0.04884     0.05079 0.04880          82 140.0        0.93455 0.0      0.0001    0.0          0.0001
+
+boundary_wtc
+ trim_s   film                null    real  pseudo  difference  null_mean        z       p   p_fdr
+      0  Audio        unrestricted 0.70072 0.69897     0.00175    0.69893  0.69075 0.24538 0.24538
+      0 Comedy        unrestricted 0.70821 0.70207     0.00615    0.70211  2.27405 0.01200 0.03600
+      0 Horror        unrestricted 0.70509 0.70073     0.00437    0.70076  1.61071 0.05539 0.08309
+      0  Audio       order-matched 0.70072 0.69897     0.00175    0.69730  1.43257 0.07309 0.07309
+      0 Comedy       order-matched 0.70821 0.70207     0.00615    0.70222  2.46959 0.00730 0.02190
+      0 Horror       order-matched 0.70509 0.70073     0.00437    0.70048  1.79063 0.03790 0.05684
+      0  Audio friends - strangers     NaN     NaN     0.00557        NaN  0.09641 0.58285 0.72521
+      0 Comedy friends - strangers     NaN     NaN     0.00937        NaN  0.40643 0.01874 0.05621
+      0 Horror friends - strangers     NaN     NaN    -0.00340        NaN -0.06238 0.72521 0.72521
+     30  Audio        unrestricted 0.69678 0.69588     0.00090    0.69584  0.34465 0.36526 0.36526
+     30 Comedy        unrestricted 0.70645 0.69992     0.00653    0.69997  2.30745 0.01100 0.03300
+     30 Horror        unrestricted 0.70323 0.69856     0.00467    0.69858  1.65298 0.05149 0.07724
+     30  Audio       order-matched 0.69678 0.69588     0.00090    0.69418  1.03971 0.14599 0.14599
+     30 Comedy       order-matched 0.70645 0.69992     0.00653    0.70005  2.54692 0.00570 0.01710
+     30 Horror       order-matched 0.70323 0.69856     0.00467    0.69823  1.88948 0.03010 0.04515
+     30  Audio friends - strangers     NaN     NaN     0.00420        NaN  0.06616 0.70879 0.91253
+     30 Comedy friends - strangers     NaN     NaN     0.00797        NaN  0.29679 0.08660 0.25981
+     30 Horror friends - strangers     NaN     NaN    -0.00345        NaN -0.02079 0.91253 0.91253
+     60  Audio        unrestricted 0.69443 0.69399     0.00044    0.69394  0.16967 0.43046 0.43046
+     60 Comedy        unrestricted 0.70564 0.69885     0.00679    0.69892  2.25521 0.01220 0.03660
+     60 Horror        unrestricted 0.70162 0.69669     0.00494    0.69671  1.65408 0.04900 0.07349
+     60  Audio       order-matched 0.69443 0.69399     0.00044    0.69217  0.84300 0.19928 0.19928
+     60 Comedy       order-matched 0.70564 0.69885     0.00679    0.69894  2.50619 0.00710 0.02130
+     60 Horror       order-matched 0.70162 0.69669     0.00494    0.69642  1.88474 0.03120 0.04680
+     60  Audio friends - strangers     NaN     NaN     0.00482        NaN  0.06616 0.70879 0.94745
+     60 Comedy friends - strangers     NaN     NaN     0.00688        NaN  0.18336 0.29164 0.87493
+     60 Horror friends - strangers     NaN     NaN    -0.00217        NaN -0.01323 0.94745 0.94745
+    120  Audio        unrestricted 0.69331 0.69385    -0.00054    0.69381 -0.14950 0.55554 0.55554
+    120 Comedy        unrestricted 0.70503 0.69810     0.00693    0.69818  1.95858 0.02480 0.07439
+    120 Horror        unrestricted 0.70056 0.69713     0.00343    0.69714  1.00272 0.15918 0.23878
+    120  Audio       order-matched 0.69331 0.69385    -0.00054    0.69233  0.31225 0.37566 0.37566
+    120 Comedy       order-matched 0.70503 0.69810     0.00693    0.69770  2.32240 0.01190 0.03570
+    120 Horror       order-matched 0.70056 0.69713     0.00343    0.69683  1.20538 0.11619 0.17428
+    120  Audio friends - strangers     NaN     NaN     0.00291        NaN  0.06238 0.72521 0.79206
+    120 Comedy friends - strangers     NaN     NaN     0.00798        NaN  0.16446 0.34482 0.79206
+    120 Horror friends - strangers     NaN     NaN     0.00035        NaN  0.04726 0.79206 0.79206
+
+boundary_fir
+      edge  trim_s   film    real  pseudo  difference       z      p
+continuous       0 Comedy 0.70821 0.70207     0.00615 2.27405 0.0120
+continuous      30 Comedy 0.70645 0.69992     0.00653 2.30745 0.0110
+continuous      60 Comedy 0.70564 0.69885     0.00679 2.25521 0.0122
+continuous     120 Comedy 0.70503 0.69810     0.00693 1.95858 0.0248
+   reflect       0 Comedy 0.70770 0.70151     0.00619 2.30053 0.0114
+   reflect      30 Comedy 0.70638 0.69980     0.00658 2.33002 0.0104
+   reflect      60 Comedy 0.70566 0.69884     0.00682 2.26572 0.0122
+   reflect     120 Comedy 0.70503 0.69809     0.00694 1.96151 0.0247
+  constant       0 Comedy 0.70907 0.70275     0.00632 2.34314 0.0102
+  constant      30 Comedy 0.70701 0.70036     0.00665 2.35260 0.0099
+  constant      60 Comedy 0.70593 0.69910     0.00683 2.27116 0.0121
+  constant     120 Comedy 0.70505 0.69813     0.00692 1.95677 0.0249
+
+boundary_check
+ n_estimates  mean_abs_difference  max_abs_difference  mean_difference
+        6348              0.00003             0.00018         -0.00002
+real 14.03
+user 89.82
+sys 6.63
